@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Pekalongan</title>
+    <style>
+      /* Global styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        background-color: #f2f2f2;
+        color: #333;
+      }
+      header {
+        background: linear-gradient(to right, #ff6347, #ff4500);
+        color: #fff;
+        text-align: center;
+        padding: 2rem;
+      }
+      header h1 {
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+      }
+      header p {
+        font-size: 1.2rem;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #ff4500;
+        padding: 1rem;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+      nav a:hover {
+        background: #ff6347;
+      }
+      section {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      section h2 {
+        text-align: center;
+        color: #ff6347;
+        margin-bottom: 1rem;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .card h3 {
+        background: #ff6347;
+        color: white;
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+      }
+      .card p {
+        padding: 1rem;
+        color: #555;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      footer {
+        background: #ff4500;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Explore Pekalongan</h1>
+      <p>Discover the rich culture, history, and beauty of Pekalongan</p>
+    </header>
+    <nav>
+      <a href="#sejarah">Sejarah Pekalongan</a>
+      <a href="#wisata">Wisata</a>
+      <a href="#kerajinan">Kerajinan</a>
+      <a href="#makanan">Makanan Khas</a>
+      <a href="#budaya">Budaya Masyarakat</a>
+    </nav>
+
+    <section id="sejarah">
+      <h2>Sejarah Kota Pekalongan</h2>
+      <p>
+        Pekalongan dikenal sebagai Kota Batik, kota yang penuh sejarah dan
+        tradisi. Sejak abad ke-19, Pekalongan telah menjadi pusat perniagaan
+        batik, dan hingga kini menjadi tempat dimana batik diproduksi secara
+        massal. Selain itu, Pekalongan juga dikenal sebagai Kota Santri, karena
+        memiliki banyak pesantren yang menjadi pusat pendidikan agama, dan Kota
+        Cheater, karena peranannya dalam perkembangan teknologi dan industri.
+      </p>
+      <p>
+        Pekalongan menyandang julukan sebagai Kota Batik karena perkembangan
+        batik yang sangat pesat di daerah ini. Batik Pekalongan memiliki ciri
+        khas warna yang cerah dan motif yang sangat beragam, dipengaruhi oleh
+        tradisi lokal, Hindu, dan Islam. Pada tahun 2009, UNESCO mengakui batik
+        sebagai Warisan Budaya Tak Benda Dunia, dan Pekalongan termasuk dalam
+        daerah yang berperan besar dalam perkembangan batik ini.
+      </p>
+      <p>
+        Selain itu, Pekalongan juga dikenal sebagai Kota Santri, dengan
+        banyaknya pesantren yang tersebar di seluruh kota. Kota ini menjadi
+        tempat lahirnya banyak tokoh agama dan intelektual Muslim. Dan julukan
+        Kota Cheater merujuk pada peranannya dalam dunia teknologi, terutama
+        dalam pengembangan aplikasi dan startup di Indonesia.
+      </p>
+    </section>
+
+    <section id="wisata">
+      <h2>Wisata Pekalongan</h2>
+      <div class="grid-container">
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Petung"
+            alt="Petung"
+          />
+          <h3>Petung</h3>
+          <p>
+            Petung adalah dataran tinggi yang menawarkan pemandangan indah
+            dengan udara yang sejuk. Cocok untuk hiking dan menikmati keindahan
+            alam Pekalongan.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Curug+Bajing"
+            alt="Curug Bajing"
+          />
+          <h3>Curug Bajing</h3>
+          <p>
+            Air terjun Curug Bajing menawarkan suasana alam yang sejuk dan
+            pemandangan yang luar biasa, cocok bagi pecinta alam.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Pantai+Pasir+Kencana"
+            alt="Pantai Pasir Kencana"
+          />
+          <h3>Pantai Pasir Kencana</h3>
+          <p>
+            Pantai yang terkenal dengan pasir putihnya dan keindahan matahari
+            terbenam, tempat yang tepat untuk bersantai.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Alun-Alun+Pekalongan"
+            alt="Alun-Alun Pekalongan"
+          />
+          <h3>Alun-Alun Pekalongan</h3>
+          <p>
+            Tempat yang populer di kalangan masyarakat Pekalongan, penuh dengan
+            aktivitas dan sering mengadakan acara komunitas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kerajinan">
+      <h2>Kerajinan Masyarakat Pekalongan</h2>
+      <p>
+        Pekalongan terkenal dengan kerajinan batiknya, yang telah ada sejak
+        lama. Batik Pekalongan terkenal dengan warna-warna cerah dan motif yang
+        unik. Proses pembuatan batik melibatkan teknik canting, di mana motif
+        ditulis dengan lilin panas pada kain, kemudian diwarnai menggunakan
+        pewarna alami atau sintetis.
+      </p>
+      <p>
+        Museum Batik Pekalongan merupakan tempat yang wajib dikunjungi untuk
+        memahami sejarah dan proses pembuatan batik. Dibangun pada tahun 2006,
+        museum ini menyimpan berbagai koleksi batik dari berbagai daerah, serta
+        alat-alat tradisional yang digunakan dalam pembuatan batik.
+      </p>
+      <p>
+        Selain itu, masyarakat Pekalongan juga dikenal dengan kerajinan tangan
+        lainnya seperti anyaman bambu, ukiran kayu, dan tenun. Kerajinan ini
+        merupakan bagian penting dari budaya dan ekonomi lokal Pekalongan.
+      </p>
+    </section>
+
+    <section id="makanan">
+      <h2>Makanan Khas Pekalongan</h2>
+      <div class="grid-container">
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Tauto"
+            alt="Tauto"
+          />
+          <h3>Tauto</h3>
+          <p>
+            Soto khas Pekalongan yang menggunakan tauco sebagai bumbu utama,
+            memberikan rasa yang unik dan kaya rempah.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Megono"
+            alt="Megono"
+          />
+          <h3>Megono</h3>
+          <p>
+            Megono adalah hidangan yang terbuat dari parutan nangka muda yang
+            dimasak dengan bumbu khas Pekalongan. Biasanya disajikan dengan nasi
+            hangat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="budaya">
+      <h2>Budaya Masyarakat Pekalongan</h2>
+      <p>
+        Pekalongan memiliki banyak budaya yang kaya, salah satunya adalah
+        Festival Batik Pekalongan yang diadakan setiap tahun. Acara ini
+        menyajikan pertunjukan seni, pameran batik, dan berbagai acara budaya
+        lainnya. Selain itu, Pekalongan juga dikenal dengan kegiatan keagamaan
+        seperti peringatan Maulid Nabi, yang diadakan dengan meriah setiap
+        tahunnya.
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2024 Explore Pekalongan | Semua Hak Dilindungi | Projek Akhir PKL
+      STMIK Widya Pratama
+    </footer>
+  </body>
+</html>
